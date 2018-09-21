@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.mainpage{
+  display: grid;
+  grid-column: 1fr;
+  grid-row: 1fr 1fr 1fr;
+  border: solid red 1px;
+height: 100vh;
+}
+
+
+.nav {
+  border: solid green 1px;
+
+}
+.nav li{
+
+list-style: none;
+grid-area: 2 /3;
+}
+
+
+
+
+.center{
+  border: solid black 1px;
+}
+footer{
+  border: solid yellow 1px;
+}
